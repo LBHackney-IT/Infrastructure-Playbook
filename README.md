@@ -1,6 +1,6 @@
-# Website
+# Infrastructure Playbook Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator.
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. Contains all documentation related to [Hackney AWS Infrastructure](https://github.com/LBHackney-IT/infrastructure)
 
 ## Installation
 
