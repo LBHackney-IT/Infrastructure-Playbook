@@ -1,6 +1,8 @@
 # Infrastructure Playbook Website
 
-This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. Contains all documentation related to [Hackney AWS Infrastructure](https://github.com/LBHackney-IT/infrastructure)
+This website is built using [Docusaurus 2](https://v2.docusaurus.io/), a modern static website generator. Contains all documentation related to [Hackney AWS Infrastructure](https://github.com/LBHackney-IT/infrastructure).
+
+Any changes made to `main` will trigger a publish to https://playbook.hackney.gov.uk/Infrastructure-Playbook, but should you wish to develop locally:
 
 ## Installation
 
