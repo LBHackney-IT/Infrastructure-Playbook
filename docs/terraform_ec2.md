@@ -12,8 +12,8 @@ Declare the module and provide the required inputs and optional inputs as needed
 module "ec2s" {
   source = "../../modules/aws-ec2-lbh/module"
   tags          = module.tags.values
-  vpc_id        = "vpc-9ede98f6"
-  subnet_ids    = ["subnet-861286fc", "subnet-e7d40eab", "subnet-3feba356"]
+  vpc_id        = "vpc-xxxx"
+  subnet_ids    = ["subnet-xxxxxa", "subnet-xxxxxb", "subnet-xxxxxc"]
   ec2_instances = local.ec2_instances
 }
 ```
