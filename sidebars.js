@@ -4,12 +4,12 @@ module.exports = {
     {
       type: 'category',
       label: 'Home',
-      items: ['index', 'api_standards', 'platform_api_vs_service_api', 'documentation'],
+      items: ['index', 'the_team'],
     },
     {
       type: 'category',
-      label: 'Principles',
-      items: [],
+      label: 'How-To guides',
+      items: ['terraform_ec2','terraform_ec2_monitoring'],
     },
     {
       type: 'category',
