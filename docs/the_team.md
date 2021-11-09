@@ -23,6 +23,8 @@ title: The Hackney Cloud Engineering team
 
 - ** Ninad Shetty ** - Senior Application Support Analyst
 
+- ** Stuart Stone ** - Senior Cloud engineer
+
 - ** Tomasz Cwik ** - DevOps engineer
 
 - ** Tom Kimber ** - DevOps engineer
