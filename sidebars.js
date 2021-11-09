@@ -8,7 +8,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Info',
-      items: ['control_tower','sso_sync','permissions_management'],
+      items: ['control_tower','sso_sync','permissions_management','account_provisioning','hub'],
     },
     {
       type: 'category',

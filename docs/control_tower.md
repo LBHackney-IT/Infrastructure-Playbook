@@ -32,3 +32,22 @@ Further access to accounts is controlled via occasional individual permissions a
 
 ## Organisation
 
+We use Organisations Units to control which environment within the [hub](/hub) the accounts are added to.
+
+### OUs
+
+- Root
+    - Production
+    - Staging
+    - Development
+    - Core
+
+## Guardrails
+
+List the guardrails configured for the OUs?
+
+This may be a moveable thing so perhaps it's not feasibly to do that here?
+
+## Account bootstrap
+
+Initial Account set up information can be found in [Account provisioning](/account_provisioning).
