@@ -8,6 +8,11 @@ module.exports = {
     },
     {
       type: 'category',
+      label: 'Info',
+      items: ['control_tower','sso_sync','permissions_management'],
+    },
+    {
+      type: 'category',
       label: 'How-To guides',
       items: ['terraform_ec2','terraform_ec2_monitoring'],
     },
