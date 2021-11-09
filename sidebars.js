@@ -13,7 +13,7 @@ module.exports = {
     {
       type: 'category',
       label: 'How-To guides',
-      items: ['terraform_ec2','terraform_ec2_monitoring'],
+      items: ['terraform_ec2','terraform_ec2_monitoring','creating_accounts'],
     },
     {
       type: 'category',
