@@ -1,6 +1,6 @@
 ---
 id: control_tower
-title: Control Tower setup at LBH
+title: Control Tower
 ---
 ## Introduction
 
