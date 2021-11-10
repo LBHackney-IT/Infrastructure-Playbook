@@ -41,13 +41,16 @@ We use Organisations Units to control which environment within the [hub](/hub) t
     - Staging
     - Development
     - Core
+    - Unmanaged
 
 ## Guardrails
 
-List the guardrails configured for the OUs?
+Multiple [Guardrails](https://docs.aws.amazon.com/controltower/latest/userguide/guardrails.html) are configured against every account based on the organisation unit that account resides in. They allow you to enforce polices or detect violations throughout the Control tower environment.
 
-This may be a moveable thing so perhaps it's not feasibly to do that here?
+## AWS Account bootstrap
 
-## Account bootstrap
+Initial Account set up information can be found in [account provisioning](/account_provisioning).
 
-Initial Account set up information can be found in [Account provisioning](/account_provisioning).
+## Creating a new AWS account
+
+Under certain circumstances new accounts can be [created for you](/creating_accounts).
