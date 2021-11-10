@@ -1,6 +1,6 @@
 ---
 id: terraform_ec2_monitoring
-title: Monitoring a Windows ec2 instance using the Hackney module
+title: Monitoring a Windows ec2 instance
 ---
 
 ## Overview

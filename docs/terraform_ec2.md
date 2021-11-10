@@ -1,6 +1,6 @@
 ---
 id: terraform_ec2
-title: Creating an ec2 instance using the Hackney module
+title: Creating an ec2 instance
 ---
 
 ## Overview
