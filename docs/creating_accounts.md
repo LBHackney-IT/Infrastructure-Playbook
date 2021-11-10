@@ -1,11 +1,11 @@
 ---
 id: creating_accounts
-title: Creating a new account
+title: Creating a new AWS account
 ---
-## How to request a new account
+## How to request a new AWS account
 ### This represents the current process to request a new account in AWS. It will change once HaloITSM is in use, see below.
 
-AWS accounts can only be created by the Cloud Engineering team. Request a new account in the  #ask-devops channel in Slack, with the following details:
+AWS accounts can only be created by the Cloud Engineering team. Request a new account in the [#ask-devops](https://hackit-lbh.slack.com/archives/C01FX9ERRSL) channel in Slack, with the following details:
 - Name of account
 - Environment
 - Name of team/project and people who should have access
