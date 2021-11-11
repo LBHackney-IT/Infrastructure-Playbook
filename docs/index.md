@@ -4,7 +4,9 @@ title: Introduction
 slug: /
 ---
 
-Who is the [Cloud engineering team](/the_team)?
+This playbook is a work in progress.
+
+Who are the [Cloud engineering team](/the_team)?
 
 ## Why a Playbook?
 

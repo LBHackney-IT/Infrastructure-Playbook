@@ -2,7 +2,6 @@
 id: control_tower
 title: Control Tower
 ---
-## Introduction
 
 Hackney’s environment is set up using [AWS Control tower](https://aws.amazon.com/controltower/).  This gives us the ability to centrally manage a multi-account environment. It also allows us to use SSO to provide a single user account whereby an individual can access resources across the Control Tower environment. 
 
