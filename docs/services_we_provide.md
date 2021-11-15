@@ -22,7 +22,7 @@ The default backup policies are:
 These defaults must only be varied with the agreement of the Information Asset Owner. 
 
 ## Patching
-The k[Patching module](https://github.com/LBHackney-IT/infrastructure/tree/master/modules/aws-patching-lbh/module) automatically scans all Windows and Ubuntu EC2 instances to make sure they have the most up-to-date patches. Note that this is OS only, not application patches. Enable by using the TOSCAN and TOPATCH tag groups (note: case-sensitive).
+The [Patching module](https://github.com/LBHackney-IT/infrastructure/tree/master/modules/aws-patching-lbh/module) automatically scans all Windows and Ubuntu EC2 instances to make sure they have the most up-to-date patches. Note that this is OS only, not application patches. Enable by using the TOSCAN and TOPATCH tag groups (note: case-sensitive).
 
 TOSCAN:
 - Scans EC2s for Critical or Important patches
