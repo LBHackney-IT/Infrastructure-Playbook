@@ -3,7 +3,8 @@ id: creating_accounts
 title: Creating a new AWS account
 ---
 ## How to request a new AWS account
-### This represents the current process to request a new account in AWS. It will change once HaloITSM is in use, see below.
+
+**This represents the current process to request a new account in AWS. It will change once HaloITSM is in use, see below.**
 
 AWS accounts can only be created by the Cloud Engineering team. Request a new account in the [#ask-devops](https://hackit-lbh.slack.com/archives/C01FX9ERRSL) channel in Slack, with the following details:
 - Name of account
@@ -36,8 +37,8 @@ Add Provisioned Product Name as per standards
 - e.g. Xpress-Staging (delimiter is hyphen)
 
 Account email as per formula:
-- hackitplatform+[account name, including environment, as above]@hackney.gov.uk
-- e.g. hackitplatform+xpress-staging@hackney.gov.uk
+- rootemail+[account name, including environment, as above]@hackney.gov.uk
+- e.g. rootemail+xpress-staging@hackney.gov.uk
 
 Account Name as above: Provisioned Product Name.
 
@@ -53,7 +54,7 @@ On initial account creation there will be no password, so you need to create a p
 - Open an incognito browser and go to the AWS Console
 - Add the root user email address [see account email above], do the captcha, then select “Forgot password?”
 
-An email will be sent to the mailbox for hackitplatform@hackney.gov.uk, which, as of November 2021, is accessible to Matt Keyworth, Frank Barnett, Rashmi Shetty, Mirela Georgieva and Selwyn Preston. Please ask one of these users to click the link and create a password for the account. 
+An email will be sent to the mailbox for the hackney.gov.uk root email address, which, as of November 2021, is accessible to Matt Keyworth, Frank Barnett, Rashmi Shetty, Mirela Georgieva and Selwyn Preston. Please ask one of these users to click the link and create a password for the account. 
 
 - The username and password should be stored in the HackIT_AWS_Root_Credentials vault in 1Password. (The same individuals have access to this vault.)
 
