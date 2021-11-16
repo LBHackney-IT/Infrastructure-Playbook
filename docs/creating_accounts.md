@@ -27,7 +27,7 @@ There may be an existing account that is suitable for your application. If in do
 
 ### Create a new account
 
-Full instructions on how to create a new account are in the [team drive](https://docs.google.com/document/d/1JEaLgCDx5-j9Vo0whBwBYzUd5ZSjV5Q5WauyKLTAB48/edit#). 
+Full instructions on how to create a new account are in the [team drive](https://docs.google.com/document/d/1JEaLgCDx5-j9Vo0whBwBYzUd5ZSjV5Q5WauyKLTAB48/edit#) (restricted access). 
 
 New accounts are created using the AWS Service Catalog, but you have to make sure that the location is set to Ireland as our Control Tower is in that instance. 
 
