@@ -13,7 +13,7 @@ module.exports = {
     {
       type: 'category',
       label: 'How-To guides',
-      items: ['terraform_ec2','terraform_ec2_monitoring','certificates','creating_accounts','dns', 'overnight_shutdown', 'patching','tagging', '../API-Playbook/ec2_access,', '../API-Playbook/rds_access,'],
+      items: ['terraform_ec2','terraform_ec2_monitoring','certificates','creating_accounts','dns', 'overnight_shutdown', 'patching','tagging', '../API-Playbook/ec2_access', '../API-Playbook/rds_access'],
     },
     {
       type: 'category',
