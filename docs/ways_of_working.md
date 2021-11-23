@@ -7,7 +7,7 @@ title: Cloud Engineering Team Ways of Working
 
 
 
-* **We put security first. **Security is everybody’s job, not owned by a single team
+* **We put security first.** Security is everybody’s job, not owned by a single team
 * **DevOps is a culture, not a team.** You can still be a DevOps engineer while building your product
 * **We want to upskill people for the future.** We learn from each other, and everyone has a role to play
 * **We will innovate and prove success with data. **We are empowered and protected; we can fail fast, but we are accountable for what we do
@@ -43,7 +43,6 @@ title: Cloud Engineering Team Ways of Working
 
 
 ## Branching strategy
-
 
 
 * We create a new development branch for new pieces of work, and ensure it is reviewed by a peer before it’s merged into Master
