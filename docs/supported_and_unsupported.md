@@ -3,8 +3,6 @@ id: supported_and_unsupported
 title: Supported and unsupported services
 ---
 
-# Supported and unsupported services
-
 
 ## Supported services
 
