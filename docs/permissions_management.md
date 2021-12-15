@@ -5,8 +5,6 @@ title: AWS Permissions
 
 ### General Ideas
 
-
-
 * **Principle of least privilege **should apply to all users/groups. In other words, we only grant permissions access at a level necessary for users to undertake their work.
 * **Groups – and as often possible _not_ individuals **– with common access needs should be assigned access to accounts with appropriate permissions. See below for exceptions.
 * **No adding teams by default**: we do not assign an entire Hackney team the same access permissions as one another. Instead, those _within_ a team that need access to AWS will get it. Seniority does not mean superior access. 
@@ -17,14 +15,14 @@ title: AWS Permissions
     * their full-name / hackney email
 
 
-## Google / SAML groups
+### Google / SAML groups
 
 We federate user access from our Google directory. This means users will automatically be able to access an application by logging in with their Hackney Google Account (SSO). 
 
 Our aim is to organise most access to AWS accounts and AppStream applications via groups of users with similar access needs. This is done via groups created in our Google directory that begin with the prefix “saml”.
 
 
-## Types of Users Needing Access
+### Types of Users Needing Access
 
 The types of users currently accessing Hackney’s AWS environment can be roughly divided into three categories:
 
@@ -36,15 +34,15 @@ The types of users currently accessing Hackney’s AWS environment can be roughl
 *NB Even for those building (in) the platform, the majority of resources should be created using infrastructure as code and CI/CD pipelines, which utilise automated deployment roles rather than individuals’ access permissions. As a result, although it can be argued that those building (in) the platform do require elevated permissions from time to time, their access permission level should still be moderate or limited. 
 
 
-## Creating groups
+### Creating groups
 
 Currently, we must request that a member of the service support team create a group. Soon there is likely to be a new process for requesting groups that is more auditable, provided by Halo. Please request that any new groups’ names follow our guidelines below. 
 
 
-## Naming conventions for Google (SAML) groups
+### Naming conventions for Google (SAML) groups
 
 
-# Group Email Identifier 
+#### Group Email Identifier 
 
 
 <table>
@@ -98,7 +96,7 @@ Currently, we must request that a member of the service support team create a gr
  **Note: all group names must be hyphenated and not capitalised. **
 
 
-## Special Features
+### Special Features
 
 Designation for groups with special access privileges or other features worthy of note. General access groups carry no designation.
 
@@ -140,7 +138,7 @@ These suffixes are compoundable with hyphens, e.g., `admin-staging.`
 
 
 
-## Group Description
+### Group Description
 
 This should always be completed by an Owner/Manager of the google group upon creation. The description should clearly describe:
 
@@ -159,7 +157,7 @@ Eg.
 
 
 
-## Group Permissions
+### Group Permissions
 
 As these groups are used to control access to applications, it’s important that the groups are properly configured to prevent users being added/removed without authorisation. 
 
@@ -223,7 +221,7 @@ As these groups are used to control access to applications, it’s important tha
 
 
 
-## Group Membership
+### Group Membership
 
 The default Group Owner should be set to a `G Suite (Service Account)` unless there’s a technical reason to use an alternative service account. The Group Owner should never be set to a specific user.
 
@@ -232,7 +230,7 @@ Our aim is to ensure that the management of these groups will quickly pass over 
 Once a group has been created, Managers can add Members to the group as described in [this Google documentation](https://support.google.com/groups/answer/2465464?hl=en), section **Add people to your group directly**. 
 
 
-## Individual Access to an account
+### Individual Access to an account
 
 Although it is preferable that groups are given access rather than individuals, there are some cases in which giving an individual access may be more secure than giving a group access. Good reasons for granting an individual access to an account:
 
@@ -242,26 +240,26 @@ Although it is preferable that groups are given access rather than individuals, 
 * If, by granting a group access instead of an individual, you would be granting access to other individuals who should **not** have access to that account.
 
 
-## Syncing a New Group with AWS
+### Syncing a New Group with AWS
 
 Follow the guide for adding a new group to Parameter Store [here](https://docs.google.com/document/d/1feFvMXTk26Brw0495DqBjOM0y5ZsVYAgaAVsmRtD600/edit#heading=h.9qr01v8jkz11). 
 
 
-## Adding members / groups via SCIM
+### Adding members / groups via SCIM
 
 Although it is preferable to simply add users to their respective groups and wait for the SSO Sync to run, it is possible to quickly add groups or add users to existing groups via Postman and SCIM. _Please ask those existing members of the team who have this set up to help. _
 
 
-## Permission Sets
+### Permission Sets
 
 We are currently using a variety of custom and AWS permission sets in order to grant access to different Google groups across Hackney’s AWS environment. The way in which we use these permission sets is likely to change soon. Permission sets consist of both custom/inline and managed policies. [Read more on permission sets here](https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html). 
 
 
-## Custom Permission Sets
+### Custom Permission Sets
 
 We use a range of custom permission sets based around the different types of users listed above.
 
-## AWS Permission Sets
+### AWS Permission Sets
 
 [AWSReadOnlyAccess](https://eu-west-1.console.aws.amazon.com/singlesignon/home?region=eu-west-1#/accounts/permissionSets/details/ps-568cee9a894e9dcc)
 
