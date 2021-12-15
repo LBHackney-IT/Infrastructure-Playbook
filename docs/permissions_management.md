@@ -17,7 +17,7 @@ title: AWS Permissions
     * their full-name / hackney email
 
 
-# Google / SAML groups
+## Google / SAML groups
 
 We federate user access from our Google directory. This means users will automatically be able to access an application by logging in with their Hackney Google Account (SSO). 
 
@@ -27,7 +27,6 @@ Our aim is to organise most access to AWS accounts and AppStream applications vi
 ## Types of Users Needing Access
 
 The types of users currently accessing Hackney’s AWS environment can be roughly divided into three categories:
-
 
 
 * Those building (in) the platform*;
@@ -45,7 +44,7 @@ Currently, we must request that a member of the service support team create a gr
 ## Naming conventions for Google (SAML) groups
 
 
-## Group Email Identifier 
+# Group Email Identifier 
 
 
 <table>
@@ -99,7 +98,7 @@ Currently, we must request that a member of the service support team create a gr
  **Note: all group names must be hyphenated and not capitalised. **
 
 
-### Special Features
+## Special Features
 
 Designation for groups with special access privileges or other features worthy of note. General access groups carry no designation.
 
@@ -155,7 +154,7 @@ Eg.
 
 
 
-> Add general users for financeapplication1 to this group. The application is delivered via AWS AppStream and further documentation can be found here: <link>.
+> Add general users for financeapplication1 to this group. The application is delivered via AWS AppStream and further documentation can be found here: link.
 
 
 
@@ -243,7 +242,7 @@ Although it is preferable that groups are given access rather than individuals, 
 * If, by granting a group access instead of an individual, you would be granting access to other individuals who should **not** have access to that account.
 
 
-# Syncing a New Group with AWS
+## Syncing a New Group with AWS
 
 Follow the guide for adding a new group to Parameter Store [here](https://docs.google.com/document/d/1feFvMXTk26Brw0495DqBjOM0y5ZsVYAgaAVsmRtD600/edit#heading=h.9qr01v8jkz11). 
 
@@ -258,11 +257,11 @@ Although it is preferable to simply add users to their respective groups and wai
 We are currently using a variety of custom and AWS permission sets in order to grant access to different Google groups across Hackney’s AWS environment. The way in which we use these permission sets is likely to change soon. Permission sets consist of both custom/inline and managed policies. [Read more on permission sets here](https://docs.aws.amazon.com/singlesignon/latest/userguide/permissionsetsconcept.html). 
 
 
-#### Custom Permission Sets
+## Custom Permission Sets
 
 We use a range of custom permission sets based around the different types of users listed above.
 
-#### AWS Permission Sets
+## AWS Permission Sets
 
 [AWSReadOnlyAccess](https://eu-west-1.console.aws.amazon.com/singlesignon/home?region=eu-west-1#/accounts/permissionSets/details/ps-568cee9a894e9dcc)
 
