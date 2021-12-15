@@ -1,9 +1,7 @@
 ---
 id: permissions_management
-title: Permissions management
+title: AWS Permissions
 ---
-# AWS Permissions
-
 
 ### General Ideas
 
@@ -156,9 +154,9 @@ This should always be completed by an Owner/Manager of the google group upon cre
 Eg. 
 
 
-```
-Add general users for financeapplication1 to this group. The application is delivered via AWS AppStream and further documentation can be found here: <link>.
-```
+
+> Add general users for financeapplication1 to this group. The application is delivered via AWS AppStream and further documentation can be found here: <link>.
+
 
 
 
