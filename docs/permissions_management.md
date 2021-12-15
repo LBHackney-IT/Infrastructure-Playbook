@@ -21,11 +21,7 @@ title: Permissions management
 
 
 * **Principle of least privilege **should apply to all users/groups. In other words, we only grant permissions access at a level necessary for users to undertake their work.
-* **Groups – and as often possible _not_ individuals **– with common access needs should be assigned access to accounts with appropriate permissions. See 
-
-<p id="gdcalert1" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "below"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert2">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[below](#heading=h.baqj34rqwcn6) for exceptions.
+* **Groups – and as often possible _not_ individuals **– with common access needs should be assigned access to accounts with appropriate permissions. See below for exceptions.
 * **No adding teams by default**: we do not assign an entire Hackney team the same access permissions as one another. Instead, those _within_ a team that need access to AWS will get it. Seniority does not mean superior access. 
 * **aws-sso**: this Slack channel is the appropriate place for other teams to request access. We ask that requesters provide the following information:
     * the name of the team/project
@@ -277,12 +273,7 @@ We are currently using a variety of custom and AWS permission sets in order to g
 
 #### Custom Permission Sets
 
-We use a range of custom permission sets based around the different types of users listed 
-
-<p id="gdcalert2" ><span style="color: red; font-weight: bold">>>>>>  gd2md-html alert: undefined internal link (link text: "above"). Did you generate a TOC? </span><br>(<a href="#">Back to top</a>)(<a href="#gdcalert3">Next alert</a>)<br><span style="color: red; font-weight: bold">>>>>> </span></p>
-
-[above](#heading=h.koyc2sxzr90x). 
-
+We use a range of custom permission sets based around the different types of users listed above.
 
 #### AWS Permission Sets
 
