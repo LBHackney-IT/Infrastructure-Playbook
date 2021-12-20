@@ -8,7 +8,7 @@ title: Creating a new AWS account
 
 AWS accounts can only be created by the Cloud Engineering team. Request a new account in the [#ask-devops](https://hackit-lbh.slack.com/archives/C01FX9ERRSL) channel in Slack, with the following details:
 - Name of account
-- Environment
+- Environment (Production, Staging or Development)
 - Name of team/project and people who should have access
 
 
@@ -18,6 +18,7 @@ Once HaloITSM is in use, you must use that to raise your request.
 
 ### Do I need a new account?
 You may not need a new account. We try to group similar applications together, such as all housing applications in the Housing account. However, you may want to take into account the following:
+Is the purpose (development, testing or live) different to existing accounts?
 Will a third party need access?
 Will the application host a large amount of personal and/or sensitive data?
 
@@ -38,6 +39,9 @@ Every account needs a root user email address and MFA set up. It is important th
 ### Assign Users to the New Account
 - Sign into HackIT again as SSO-Admin and select AWS Single Sign On
 - Find the newly-created account; assign users as necessary
+
+#### AWS Role Mapping
+TODO: How will AWS roles be mapped to SSO users? Currently done via ad-hoc mapping, but should each account have pre-defined SSO groups?
 
 ### Create a Secret in GitHub (if necessary)
 - Open the Infrastructure repo in GitHub
