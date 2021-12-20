@@ -50,3 +50,8 @@ TODO: How will AWS roles be mapped to SSO users? Currently done via ad-hoc mappi
 - Choose New Repository Secret
 - Add the name as per the naming conventions: all caps, underscore as delimiter, prefixed by AWS_ACCOUNT e.g. AWS_ACCOUNT_ACADEMY_PRODUCTION
 - Add the account number as the value and choose Add Secret
+
+### AWS Infrastructure
+Currently, teams are fully responsible for their own infrastructure deployments within the accounts. In the future, the expectation is to evolve this so that the core of the AWS platform (Networking, Backups, IAM etc) are enabled and provisioned by Cloud Engineering when an account is boostrapped.
+
+At the moment, this is limited to deploying Backups and provioning the IAM roles required to run GitHub actions. New accounts will require updating https://github.com/LBHackney-IT/infrastructure/tree/master/platform/account-configuration to add the account to the Terraform.
