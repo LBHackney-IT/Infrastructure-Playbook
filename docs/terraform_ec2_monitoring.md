@@ -1,6 +1,6 @@
 ---
 id: terraform_ec2_monitoring
-title: Monitoring a Windows ec2 instance
+title: Monitoring a Windows EC2 instance
 ---
 
 ## Overview
@@ -25,7 +25,7 @@ module "monitoring" {
 
 `ec2_instance_ids` is a list of strings that holds the instance_ids of the instances you want to monitor.
 
-`alert_emails` is a list of strings that holds the email addresses you want to receive alerts. (Any new subscription will need to be confirmed by clicking on the "Confirm Subscription" link in the email that is sent post deployment).
+`alert_emails` is a list of strings that holds the email addresses you want to receive alerts. Any new subscription will need to be confirmed by clicking on the "Confirm Subscription" link in the email that is sent post deployment.
 
 ## Default monitors and alerts
 By default, the module will alarm for:
