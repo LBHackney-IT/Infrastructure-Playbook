@@ -1,6 +1,6 @@
 ---
 id: terraform_ec2
-title: Creating an ec2 instance
+title: Creating an EC2 instance
 ---
 
 ## Overview
