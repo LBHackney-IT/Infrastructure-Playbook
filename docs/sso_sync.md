@@ -2,9 +2,8 @@
 id: sso_sync
 title: SSO sync job
 ---
-## Introduction
+There is a regular sync job between AWS SSO and the Google Directory running in the root account. When a user is added to the Google Group for AWS, please allow up to four hours for the sync to pull the details in. 
 
-A sync job was set up between AWS SSO and the Google directory which runs in the root account. The source code for the sync can be found in this repository [https://github.com/LBHackney-IT/ssosync](https://github.com/LBHackney-IT/ssosync). It was forked from [https://github.com/awslabs/ssosync](https://github.com/awslabs/ssosync).
+The source code for the sync ins in [this repository](https://github.com/LBHackney-IT/ssosync). It was forked from [AWSLabs](https://github.com/awslabs/ssosync).
 
-
-MORE DETAILS ABOUT THE SYNC JOB HERE
+We plan to iterate the sync in 2022 to make it faster. 
