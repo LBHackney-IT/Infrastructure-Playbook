@@ -2,31 +2,15 @@
 id: the_team
 title: The Hackney Cloud Engineering team
 ---
-
-- ** Alliu Balogun ** - DevOps engineer
-
-- ** Anna Canby Monk ** - Infrastructure & Applications Apprentice 
+Having started as a hybrid team of Hackney officers and colleagues from a digital agency, we are now mostly Hackney staff. We work closely with other dev teams and network engineers. 
 
 - ** Cintia Gloker ** - DevOps apprentice
-
 - ** Darren McCormac ** - Senior Delivery Manager
-
 - ** Frank Barnett ** - Infrastructure engineer
-
-- ** Isaiah Oketola ** - Infrastructure engineer
-
-- ** James Johnson ** - DevOps engineer
-
 - ** Kimberly Thach ** - DevOps apprentice
-
-- ** Matthew Keyworth ** - Lead Developer
-
+- ** Matthew Keyworth ** - Senior Cloud Engineer
 - ** Ninad Shetty ** - Senior Application Support Analyst
-
 - ** Stuart Stone ** - Senior Cloud engineer
+- ** Tomasz Cwik ** - Senior DevOps engineer
 
-- ** Tomasz Cwik ** - DevOps engineer
-
-- ** Tom Kimber ** - DevOps engineer
-
-- ** Zoli Bharmal ** - DevOps engineer
+Contact us by emailing `Cloud Engineering` in your Hackney email. 
