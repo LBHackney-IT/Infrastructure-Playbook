@@ -13,7 +13,7 @@ Support to Application Managers is more hands-on, as we don’t expect Applicati
 Support to Application Managers also includes support to deploy an application into an EC2. 
 
 ## How to request support
-Please note that these processes will change once HaloITSM is in use. 
+*Please note that these processes will change once HaloITSM is in use.*
 
 ### General/one-off support
 The majority of support requests should come via the #ask-devops channel in Slack. This is also where you should report incidents. A member of the team will pick the request up as soon as possible. 
@@ -31,7 +31,7 @@ When making a support request, please provide as much information as you can up 
 Developers are asked to self-help in the first instance, so please include any proposed solutions or things you have tried already (Google and Stack Overflow are genuinely recommended). 
 
 ## How we provide support
-We reserve capacity each week to provide unplanned support requests. Two members of the team will be on point to provide this support, and requests made via #ask-devops will be picked up as soon as possible. 
+We reserve capacity each week to provide unplanned support requests. A member of the team will be on point to provide this support, and requests made via #ask-devops will be picked up as soon as possible. 
 
 Larger support requests and requests relating to EC2-hosted line-of-business applications must be made through the Delivery Manager, scoped, and scheduled. We may need to have a meeting to understand the desired outcome, and time to design a solution. This work needs to be prioritised against other support requests and our work to build out the platform, so please give as much notice as you can. 
 
