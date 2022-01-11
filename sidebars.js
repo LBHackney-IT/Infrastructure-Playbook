@@ -8,12 +8,12 @@ module.exports = {
     {
       type: 'category',
       label: 'Info',
-      items: ['services_we_provide', 'support_processes', 'control_tower', 'sso_sync', 'permissions_management', 'account_provisioning', 'hub', 'change_process', 'backups', 'aws_cli', 'ways_of_working', 'supported_and_unsupported', 'github_federation'],
+      items: ['account_provisioning', 'aws_cli', 'permissions_management', 'backups', 'change_process', 'ways_of_working', 'control_tower', 'github_federation', 'hub', 'services_we_provide', 'support_processes', 'sso_sync', 'supported_and_unsupported'],
     },
     {
       type: 'category',
       label: 'How-To guides',
-      items: ['terraform_ec2', 'terraform_ec2_monitoring', 'certificates', 'creating_accounts', 'dns', 'overnight_shutdown', 'patching', 'tagging', 'secure_ec2_access', 'secure_rds_access', 'migrating_instances', 's3_download', 'appstream_globalprotect', 'cloud_databases'],
+      items: ['appstream_globalprotect', 'certificates', 'cloud_databases', 'creating_accounts', 'terraform_ec2', 'dns', 's3_download', 'migrating_instances', 'terraform_ec2_monitoring', 'overnight_shutdown', 'patching', 'secure_ec2_access', 'secure_rds_access', 'tagging'],
     },
     {
       type: 'category',
