@@ -13,3 +13,5 @@ AWS accounts are provisioned by the Cloud Engineering team; please request an ac
 
 2. All applications will need both `Staging` and `Production`; apps built in-house will additionally have `Development`. 
 3. It is **not** permitted to connect different environments directly (e.g. a `Staging` account and `Production` account). This will be treated as a security breach. Please consult the team if you need to transfer data between accounts in different environments. 
+
+See our [Accounts strategy](https://docs.google.com/document/d/1xoO7C2BmTR4rf7H3EMKtXVYf50oZ22XDyrmx71Tlj_Y/edit?usp=sharing) for more information. 
