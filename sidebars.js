@@ -13,7 +13,7 @@ module.exports = {
     {
       type: 'category',
       label: 'How-To guides',
-      items: ['appstream_globalprotect', 'certificates', 'cloud_databases', 'creating_accounts', 'terraform_ec2', 'dns', 's3_download', 'migrating_instances', 'terraform_ec2_monitoring', 'overnight_shutdown', 'patching', 'secure_ec2_access', 'secure_rds_access', 'tagging'],
+      items: ['appstream_globalprotect', 'certificates', 'cloud_databases', 'creating_accounts', 'terraform_ec2', 'dns', 's3_download', 'migrating_instances', 'programmatic_access','terraform_ec2_monitoring', 'overnight_shutdown', 'patching', 'secure_ec2_access', 'secure_rds_access', 'tagging'],
     },
     {
       type: 'category',
