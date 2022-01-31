@@ -7,7 +7,7 @@ title: AWS Permissions
 * **Principle of least privilege applies to all users/groups.** In other words, we only grant permissions access at a level necessary for users to undertake their work.
 * **Groups – and as often possible _not_ individuals** – with common access needs should be assigned access to accounts with appropriate permissions. See below for exceptions.
 * **No adding teams by default.** We do not assign an entire Hackney team the same access permissions as one another. Instead, those _within_ a team that need access to AWS will get it. Seniority does not mean superior access. 
-* **#aws-sso** This Slack channel is the appropriate place for other teams to request access. We ask that requesters provide the following information:
+* **Requesting permissions** is done by email to loudsupport[at]hackney[dot]gov[dot]uk. We ask that requesters provide the following information:
    * the name of the team/project
    * the account(s) they need to access
    * a similar user
