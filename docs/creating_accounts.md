@@ -4,17 +4,12 @@ title: Creating a new AWS account
 ---
 ## How to request a new AWS account
 
-**This represents the current process to request a new account in AWS. It will change once HaloITSM is in use, see below.**
-
-AWS accounts can only be created by the Cloud Engineering team. Request a new account in the [#ask-devops](https://hackit-lbh.slack.com/archives/C01FX9ERRSL) channel in Slack, with the following details:
+AWS accounts can only be created by the Cloud Engineering team. Request a new account by emailing cloudsupport[at]hackney[dot]gov[dot]uk, with the following details:
 - Name of account
 - Environment (Production, Staging or Development)
 - Name of team/project and people who should have access
 
-
 An account will be created for you along with a Google Group to control access to the account.
-
-Once HaloITSM is in use, you must use that to raise your request. 
 
 ### Do I need a new account?
 You may not need a new account. We try to group similar applications together, such as all housing applications in the Housing account. However, you may want to take into account the following:
