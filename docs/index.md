@@ -18,7 +18,7 @@ The Playbook is for anyone building in the Hackney AWS environment - both office
 
 ## How do I get access to AWS?
 
-Requests can be posted in the [#aws_sso](https://hackit-lbh.slack.com/archives/C01CY495YJY) Slack channel. You must be a member of LBH Slack for this. 
+Requests must be by email to cloudsupport[at]hackney[dot]gov[dot]uk. 
 
 Please provide information on your AWS access requirements. e.g.
 - your team/project
