@@ -3,7 +3,7 @@ id: account_provisioning
 title: Account provisioning
 ---
 ## Introduction
-AWS accounts are provisioned by the Cloud Engineering team; please request an account via the DM or in #ask-devops on Slack. We are trying to actively reduce the nmumber of accounts we have, so please do not assume that your application will get its own account. 
+AWS accounts are provisioned by the Cloud Engineering team; request an account by emailing cloudsupport[at]hackney[dot]gov[dot]uk. We are trying to actively reduce the nmumber of accounts we have, so please do not assume that your application will get its own account. 
 
 ### Principles
 1. We have three Organisational Units, mapped to the Software Development Lifecycle:
