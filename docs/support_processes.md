@@ -13,14 +13,14 @@ Support to Application Managers is more hands-on, as we don’t expect Applicati
 Support to Application Managers also includes support to deploy an application into an EC2. 
 
 ## How to request support
-*Please note that these processes will change once HaloITSM is in use.*
+In the first instance, all support must be requested via Halo. Email cloudsupport[at]hackney[dot]gov[dot]uk to register the request
 
 ### General/one-off support
-The majority of support requests should come via the #ask-devops channel in Slack. This is also where you should report incidents. A member of the team will pick the request up as soon as possible. 
+This must be done via Halo. Urgent incidents or PRs may be posted in #ask-devops in Slack, which is also the home of general discussion. 
 ### Application deployment
-Requests to support the deployment of a new application, or vendor changes to an application, must be made via the Delivery Manager in the first instance. 
+Requests to support the deployment of a new application, or vendor changes to an application, must be made to the Delivery Manager via Halo in the first instance. 
 ### In-depth support
-We recognise that some development teams will need more in-depth support at times. Where possible, this must be requested via the Delivery Manager and scheduled. 
+We recognise that some development teams will need more in-depth support at times. Where possible, this must be requested from the Delivery Manager via Halo and scheduled. 
 
 ## Information to provide
 When making a support request, please provide as much information as you can up front. For example:
