@@ -3,7 +3,7 @@ id: aws_cli
 title: AWS CLI
 ---
 
-There is nothing custom about the way we use the AWS CLI at Hackney so this document will just refer you to the official AWS documentation for the different ways to use it.
+There is nothing custom about the way we use the AWS CLI at Hackney so this document will just refer you to the official AWS documentation for the different ways to use it. There is a [lunch & learn video](https://drive.google.com/file/d/1GnXwOzbw40uyNWk0UZM17ZYrjaIfidFl/view?usp=sharing) available, which usefully points out some of the things that can go wrong.
 
 ### Getting started and installing
 
