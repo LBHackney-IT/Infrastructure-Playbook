@@ -56,14 +56,6 @@ title: Cloud Engineering Team Ways of Working
 
 * See this [GitHub template](https://github.com/LBHackney-IT/infrastructure/blob/master/.github/pull_request_template.md) for how we do the majority of PRs
 
-
-## Definition of Done
-
-
-
-* We use a Definition of Done appropriate for the task, but which includes documentation (link to be inserted when available)
-
-
 ## Change and release
 
 
