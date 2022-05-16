@@ -8,7 +8,7 @@ module.exports = {
     {
       type: 'category',
       label: 'Info',
-      items: ['account_provisioning', 'aws_cli', 'permissions_management', 'backups', 'change_process', 'ways_of_working', 'control_tower', 'github_federation', 'hub', 'naming_conventions', 'services_we_provide', 'support_processes', 'sso_sync', 'supported_and_unsupported'],
+      items: ['account_provisioning', 'aws_cli', 'definition_of_done', 'permissions_management', 'backups', 'change_process', 'ways_of_working', 'control_tower', 'github_federation', 'hub', 'naming_conventions', 'services_we_provide', 'support_processes', 'sso_sync', 'supported_and_unsupported'],
     },
     {
       type: 'category',
