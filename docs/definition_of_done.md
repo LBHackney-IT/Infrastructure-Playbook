@@ -10,7 +10,7 @@ Work that has complete needs to be approved by the end user to ensure that the r
 ## Passes automated testing
 The code passes automated tests and will not be considered done until all tests pass.
 
- ## Documentation is updated and centrally located
+## Documentation is updated and centrally located
 Where applicable, once a piece of work is complete, any assosciated documentation is updated or creating accordingly and if possibly added to the Infrastructure Playbook.
 
 ## Peer reviewed by a member of the team
