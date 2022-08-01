@@ -28,7 +28,7 @@ title: Cloud Engineering Team Ways of Working
 
 ## Branching strategy
 * We create a new feature branch for new pieces of work, and ensure it is reviewed by a peer before it’s merged into main
-* Branch names will contain the JIRA ticket number for the piece of work, e.g. feature/CE-1234-implement-logger
+* Branch names will contain the JIRA or Halo ticket number for the piece of work, e.g. feature/CE-1234-implement-logger
 * For new repositories, we tag with [semantic versioning](https://semver.org/) when ready to release into production
 
 ## Branch Protection
@@ -41,7 +41,7 @@ title: Cloud Engineering Team Ways of Working
 ### For PR Requester
 * See this [GitHub template](https://github.com/LBHackney-IT/infrastructure/blob/master/.github/pull_request_template.md) for how we do the majority of PRs
 ### For PR Reviewer
-* Check the assosciated JIRA ticket with the PR
+* Check the assosciated JIRA or Halo ticket with the PR
     * Does the code reflect the requirements in the ticket?
     * Has the acceptance criteria been met (i.e. are appropriate tests shown to be passing, or has evidence been documented)?
     * Does this conform to the standards of the repository?
