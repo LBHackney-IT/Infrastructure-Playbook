@@ -33,7 +33,9 @@ title: Cloud Engineering Team Ways of Working
 
 ## Branch Protection
 * main branches are protected to disallow direct commits
-* Squash and merge used in order to keep the git history clean
+* [Squash and merge](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/incorporating-changes-from-a-pull-request/about-pull-request-merges#squash-and-merge-your-pull-request-commits) preferred in order to keep the git history clean
+    * As we test in a test environment before merging to main branch and release based on tag, we rollback to a previous tag rather than a commit in the event of an unforseen issue
+    * Squashing commits improves the git history rather than seeing 100 'test' or 'debug' commit messages
 
 ## PR process
 ### For PR Requester
