@@ -24,3 +24,13 @@ title: Python Setup
 <details>
     <summary>Linux</summary>
 </details>
+
+## General Practices
+### When starting a new python project
+* Change directory to the project where you will be writing python
+* Run `pipenv install`
+    * This will configure a new virtual environment for your project
+    * If you use VSCode:
+        * VSCode will attempt to find Pipenv environments for the directory you are in and use that interpreter. If it doesnt automatically update, select the interpreter in the bottom right then press refresh in the dropdown and look for the virtualenv that matches your directory
+    * Install packages with Pipenv e.g. `pipenv install boto3`
+    * Commit Pipenv and Pipenv.lock files so that packages are pinned
