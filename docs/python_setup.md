@@ -9,7 +9,7 @@ title: Python Setup
     <summary>Windows</summary>
 
 ### Install Pyenv-win
-Pyenv is a tool for managing Python environments, this is useful for the occasionw here you either don't want to mess with your system python and/or you have projects that use differing Python versions.
+Pyenv is a tool for managing Python environments, this is useful for the occasion where you either don't want to mess with your system python and/or you have projects that use differing Python versions.
 * Download [Pyenv-win](https://github.com/pyenv-win/pyenv-win)
 * Install via PowerShell following the guide in Github
 ### Configure your Pyenv environment
